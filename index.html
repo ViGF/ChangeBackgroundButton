@@ -71,6 +71,11 @@
     btn.addEventListener("dblclick", () => {
       div.style.background = `#${hexColor()}`;
     });
+    var width = screen.width;
+    if (width<=360) {
+      btn.addEventListener("click", () => {
+      div.style.background = `#${hexColor()}`;
+    });
   </script>
 </body>
 </html>
