@@ -72,10 +72,12 @@
       div.style.background = `#${hexColor()}`;
     });
     var width = screen.width;
+    var bt = "Click para alterar a cor da página aleatoriamente"
     if (width<=360) {
       btn.addEventListener("click", () => {
       div.style.background = `#${hexColor()}`;
     });
+    document.getElementById("db-click").innerHTML = bt;
     }
   </script>
 </body>
